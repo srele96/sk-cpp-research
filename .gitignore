@@ -1,0 +1,55 @@
+/cmake-build-debug/
+
+# .gitignore for .idea directory
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# Read below why I added wildcard for all subdirectories.
+/.idea/**/*.iml
+/.idea/**/workspace.xml
+/.idea/**/usage.statistics.xml
+/.idea/**/shelf
+
+# Wildcard was added because at the time of making this gitignore there are no:
+# workspace.xml
+# usage.statistics.xml
+# shelf
+#
+# I added wildcard to ignore these in all .idea subdirectories not to spend
+# more time researching where they are (I don't know if this is good solution)
+
+# -----------------------------------------------------------------------------
+
+# C++ .gitignore
+# https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
